@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omixbase</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <div class="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
-        <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
-            <h1 class="text-3xl font-bold text-center mb-4">Omixbase</h1>
-            <p class="text-center mb-8">We specialize in analyzing biological and oncological data.</p>
-            <form class="space-y-4">
-                <input type="text" placeholder="Your Name" class="block w-full p-2 border rounded-lg">
-                <input type="email" placeholder="Your Email" class="block w-full p-2 border rounded-lg">
-                <button type="submit" class="block w-full bg-blue-500 text-white p-2 rounded-lg">Get Started</button>
-            </form>
+    <!-- Hero Section -->
+    <section class="bg-blue-600 text-white text-center py-20">
+        <h1 class="text-5xl font-extrabold mb-4">Omixbase</h1>
+        <p class="text-lg mb-8">We specialize in analyzing biological and oncological data.</p>
+        <a href="#features" class="text-blue-600 bg-white py-2 px-6 rounded-full text-lg">Learn More</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <!-- Feature 1 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="https://via.placeholder.com/100" alt="Feature 1">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Data Analysis</h3>
+                    <p>Precision analysis for biological and oncological data to derive actionable insights.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="https://via.placeholder.com/100" alt="Feature 2">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Custom Solutions</h3>
+                    <p>Developing tailored solutions to meet the unique needs of each research project.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="https://via.placeholder.com/100" alt="Feature 3">
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Secure Data Handling</h3>
+                    <p>Ensuring the integrity and confidentiality of sensitive data.</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-gray-100 py-20">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">What People Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Testimonial 1 -->
+                <div class="p-8 bg-white rounded-lg shadow-lg">
+                    <p class="mb-4 italic">"Omixbase's analysis has been a game changer for our research projects."</p>
+                    <p class="font-bold">- Researcher, XYZ University</p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="p-8 bg-white rounded-lg shadow-lg">
+                    <p class="mb-4 italic">"Their team provided excellent support and custom solutions."</p>
+                    <p class="font-bold">- Scientist, ABC Pharma</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
+
 </html>
